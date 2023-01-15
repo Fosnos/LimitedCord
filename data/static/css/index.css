@@ -1,0 +1,217 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+*:focus {
+  outline: none;
+}
+.background {
+  background-color: #2f3136;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.field_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.first_container {
+  padding: 20px;
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.second_container {
+  padding: 20px;
+  width: 50%;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+hr.solid {
+  height: 90vh;
+}
+
+
+
+.input_field {
+  background-color: #40444b;
+  box-sizing: border-box;
+  border: none;
+  height: 40px;
+  border-radius: 0px;
+  margin-bottom: 5px;
+  padding-left: 8px;
+  color: white;
+}
+
+.select_field {
+  background-color: #40444b;
+  box-sizing: border-box;
+  border: none;
+  height: 40px;
+  border-radius: 0px;
+  margin-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: white;
+}
+
+.option_field {
+  background-color: #40444b;
+  box-sizing: border-box;
+  border: none;
+  height: 40px;
+  border-radius: 0px;
+  margin-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: white;
+}
+.text_field {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+section.main img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 10px solid #21222b93;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.field_title {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.working_buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.minimize {
+  background-color: #202225;
+  border-radius: 0px;
+  border: none;
+}
+
+.btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 0px;
+  border: none;
+  margin-bottom: 8px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.actiavte_btn {
+  background-color: #8080ff;
+}
+
+
+.whitelist_btn {
+  background-color: #8080ff;
+}
+
+.address_btn {
+  background-color: #00b294;
+}
+.update_btn {
+  background-color: #c56362;
+  margin-bottom: 0px;
+}
+.clear_btn {
+  background-color: #ffc83d;
+  margin-bottom: 0px;
+}
+.top_right_container {
+  background-color: #40444b;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  height: 10vh;
+}
+.top_right_title,
+.top_bottom_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.connect_btn {
+  background-color: #ffc83d;
+  border: none;
+  height: 6vh;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.right_middle_container {
+  background-color: #40444b;
+  padding: 10px;
+  border-radius: 0px;
+  height: 47;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 11px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+/* TOP BAR CSS HERE BELOW */
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3px 8px 3px 8px;
+  background-color: #202225;
+}
+
+.title {
+  color: #a3a3a3;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #40444b;
+  width: 50px;
+}
